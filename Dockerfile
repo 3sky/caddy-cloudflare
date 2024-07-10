@@ -7,7 +7,7 @@ RUN xcaddy build \
 	--with github.com/caddy-crowdsec-bouncer \
 	--with github.com/caddy-dns/cloudflare
 
-FROM caddy:${VERSION}}
+FROM caddy:${VERSION}
 
 LABEL vendor="3sky.dev" \
 	maintainer="Kuba Wolynko <kuba@3sky.dev>" \
