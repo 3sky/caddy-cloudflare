@@ -2,7 +2,9 @@
 
 Caddy Web Server with Cloudflare-DNS Provider and CrowdSec Module.
 
-[![Docker Build and Publish](https://github.com/3sky/caddy-cloudflare-crowdsec/actions/workflows/deliver.yml/badge.svg)](https://github.com/3sky/caddy-cloudflare-crowdsec/actions/workflows/deliver.yml)
+## Storing
+
+Images as well as build process are hosted on [quay.io](quay.io).
 
 [![Docker Repository on Quay](https://quay.io/repository/3sky/caddy/status "Docker Repository on Quay")](https://quay.io/repository/3sky/caddy)
 
