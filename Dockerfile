@@ -1,10 +1,9 @@
-ARG VERSION=2.8.4
+ARG VERSION=2.9.0
 ARG BUILD_DATE=today
 
 FROM caddy:${VERSION}-builder AS builder
 
 RUN xcaddy build \
-	--with github.com/hslatman/caddy-crowdsec-bouncer \
 	--with github.com/caddy-dns/cloudflare
 
 FROM caddy:${VERSION}
