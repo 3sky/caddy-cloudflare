@@ -1,6 +1,6 @@
-# caddy-cloudflare-crowdsec
+# caddy-cloudflare
 
-Caddy Web Server with Cloudflare-DNS Provider and CrowdSec Module.
+Caddy Web Server with Cloudflare-DNS Provider, build for ARM and X86.
 
 ## Storing
 
@@ -21,4 +21,3 @@ podman pull quay.io/3sky/caddy
 * [Caddy Docker](https://hub.docker.com/_/caddy)
 * [Caddy Server](https://caddyserver.com/docs/)
 * [Cloudflare module for Caddy](github.com/caddy-dns/cloudflare)
-* [CrowdSec Bouncer for Caddy](https://github.com/hslatman/caddy-crowdsec-bouncer)
