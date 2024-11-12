@@ -1,4 +1,4 @@
-ARG VERSION=2.9.0
+ARG VERSION=2.9
 ARG BUILD_DATE=today
 
 FROM caddy:${VERSION}-builder AS builder
